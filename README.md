@@ -6,13 +6,9 @@ Website for Thirty-Sixth Parallel LLC. Plain HTML and CSS, no build step, intend
 
 Not published. Do not turn on GitHub Pages, add a `CNAME` file, or change DNS (Cloudflare) until Anne approves.
 
-## Design directions
+## Design
 
-`css/site.css` holds three color and font directions. The `data-direction` attribute on each page's `<html>` tag chooses one (`a`, `b`, or `c`). Compare them at `directions.html`. After Anne picks one:
-
-1. Set `data-direction` to the chosen letter on every page (or remove the attribute if the choice is `a`).
-2. Delete the two unused blocks from `css/site.css` and the unused fonts from the Google Fonts link.
-3. Delete `directions.html`.
+Colors and fonts are set as variables at the top of `css/site.css` (slate ink, clay accent, Lora headings, Source Sans 3 body). The layout follows annemetz.com; the colors, fonts, wordmark, and code are separate.
 
 ## Placeholders
 

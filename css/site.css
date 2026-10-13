@@ -1,11 +1,7 @@
-/* Thirty-Sixth Parallel LLC — site styles
-   Three design directions share this file. The active one is set by
-   data-direction on <html> ("a", "b", or "c"). Delete the two that are
-   not chosen once Anne picks one. */
+/* Thirty-Sixth Parallel LLC — site styles */
 
-:root,
-[data-direction="a"] {
-  /* Direction A: Dusk — slate ink with a clay accent */
+:root {
+  /* Slate ink with a clay accent */
   --bg: #F6F5F1;
   --surface: #FFFFFF;
   --tint: #E9ECF2;
@@ -22,43 +18,6 @@
   --body-font: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
   --heading-weight: 500;
 }
-[data-direction="b"] {
-  /* Direction B: Night sky — deep navy with a blue accent */
-  --bg: #F4F4F6;
-  --surface: #FFFFFF;
-  --tint: #E6E7EE;
-  --line: #D3D5DE;
-  --ink: #14182B;
-  --text: #262B3F;
-  --muted: #555B70;
-  --accent: #3D5A8A;
-  --accent-hover: #2F4770;
-  --on-accent: #FFFFFF;
-  --band: #14182B;
-  --band-text: #C3C7D6;
-  --heading-font: 'DM Serif Display', Georgia, serif;
-  --body-font: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
-  --heading-weight: 400;
-}
-[data-direction="c"] {
-  /* Direction C: River — dark green-teal, sans-serif only */
-  --bg: #F5F7F6;
-  --surface: #FFFFFF;
-  --tint: #E3ECEA;
-  --line: #CFDCD9;
-  --ink: #17302E;
-  --text: #23332F;
-  --muted: #51625E;
-  --accent: #2C6A66;
-  --accent-hover: #215451;
-  --on-accent: #FFFFFF;
-  --band: #17302E;
-  --band-text: #BFD1CD;
-  --heading-font: 'Libre Franklin', 'Helvetica Neue', Arial, sans-serif;
-  --body-font: 'Libre Franklin', 'Helvetica Neue', Arial, sans-serif;
-  --heading-weight: 600;
-}
-
 :root {
   --max-w: 1080px;
   --nav-h: 68px;
