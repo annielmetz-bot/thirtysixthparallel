@@ -108,10 +108,15 @@ p:last-child { margin-bottom: 0; }
   text-transform: uppercase; color: var(--accent); margin-bottom: 0.8rem;
 }
 .lead { font-size: 1.15rem; }
-.latitude { color: var(--ink); }
-.latitude .line { stroke: var(--line); }
-.latitude .parallel { stroke: var(--accent); }
-.latitude text { fill: var(--accent); font-family: var(--body-font); font-size: 14px; font-weight: 600; }
+
+.hero-photo { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius); }
+.portrait { width: 100%; max-width: 360px; height: auto; border-radius: var(--radius); margin-bottom: 1.5rem; }
+
+/* Split: photo beside text */
+.split { padding: 3.5rem 0; }
+.split-grid { display: grid; gap: 2rem; align-items: center; }
+.split-grid img { width: 100%; height: auto; border-radius: var(--radius); }
+@media (min-width: 880px) { .split-grid { grid-template-columns: 1.1fr 1fr; gap: 3rem; } }
 
 /* Status note */
 .status {

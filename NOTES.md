@@ -16,4 +16,13 @@ The original files are in the annemetz repo history at commit `b828fbc` (the las
 | `llms.txt` | Numia, Fluence, Odyssey PBC, and psychedelic.support profile links |
 | `images/` | `psychedelic-skeptic-logo.png` and stock photos used on the psilocybin pages |
 
+Later commits on annemetz `main` also added, then the counseling-only change removed: a Taos page (`new-mexico.html`) with Taos photos, and two interviews on the About page (*Avoid the Maze*, New Cleveland Radio, https://www.youtube.com/watch?v=W1ZgFvuVpkE; Eric Teplitz Ep. 27, https://www.youtube.com/watch?v=Q2SaAqKV5Mg). See annemetz commit `60d88d1`.
+
+## Photos in use here
+
+- `images/rio-grande-gorge-evening.jpg` and `images/rio-grande-gorge-sangre-de-cristo.jpg`: from the annemetz Taos page (no longer on annemetz.com)
+- `images/anne-metz-portrait.jpg`: from `DSC00482-2.JPG`, used only on the old psilocybin pages
+
+None of these files appear on annemetz.com. Keep it that way: do not add photos that annemetz.com uses.
+
 To see a file: `git show b828fbc:podcast.html` in the annemetz repo.
