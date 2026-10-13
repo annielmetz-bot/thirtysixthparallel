@@ -20,7 +20,8 @@ Later commits on annemetz `main` also added, then the counseling-only change rem
 
 ## Photos in use here
 
-- `images/rio-grande-gorge-evening.jpg` and `images/rio-grande-gorge-sangre-de-cristo.jpg`: from the annemetz Taos page (no longer on annemetz.com)
+- `images/rio-grande-gorge-sangre-de-cristo.jpg`: from the annemetz Taos page (no longer on annemetz.com)
+- `images/anne-metz-home.jpg`: from `Metz.JPG`, used only on the old psilocybin pages
 - `images/anne-metz-portrait.jpg`: from `DSC00482-2.JPG`, used only on the old psilocybin pages
 
 None of these files appear on annemetz.com. Keep it that way: do not add photos that annemetz.com uses.

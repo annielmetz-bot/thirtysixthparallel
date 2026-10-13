@@ -109,7 +109,7 @@ p:last-child { margin-bottom: 0; }
 }
 .lead { font-size: 1.15rem; }
 
-.hero-photo { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius); }
+.hero-photo { width: 100%; max-width: 420px; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; border-radius: var(--radius); justify-self: center; }
 .portrait { width: 100%; max-width: 360px; height: auto; border-radius: var(--radius); margin-bottom: 1.5rem; }
 
 /* Split: photo beside text */
