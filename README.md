@@ -4,7 +4,7 @@ Website for Thirty-Sixth Parallel LLC. Plain HTML and CSS, no build step, intend
 
 ## Status
 
-Not published. Do not turn on GitHub Pages, add a `CNAME` file, or change DNS (Cloudflare) until Anne approves.
+Approved for a trimmed launch on October 14, 2026. GitHub Pages serves `main` at thirtysixthparallel.com (DNS at Cloudflare). Left out until ready: referral descriptions, support groups, therapist directory, state provider list, privacy policy and terms (from the attorney), the consultation request form (after attorney review), and the Rio Grande Gorge photo (source unconfirmed; recover it from git history).
 
 ## Design
 

@@ -1,4 +1,4 @@
-# PLACEHOLDER: pre-launch. Blocks all crawlers until Anne approves launch.
-# At launch, replace with "User-agent: *" / "Allow: /" and add a sitemap.
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://thirtysixthparallel.com/sitemap.xml
