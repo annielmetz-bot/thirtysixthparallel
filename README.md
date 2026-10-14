@@ -8,7 +8,7 @@ Approved for a trimmed launch on October 14, 2026. GitHub Pages serves `main` at
 
 ## Design
 
-Colors and fonts are set as variables at the top of `css/site.css` (slate ink, clay accent, Lora headings, Source Sans 3 body). The layout follows annemetz.com; the colors, fonts, wordmark, and code are separate.
+Colors and fonts are set as variables at the top of `css/site.css` (slate ink, clay accent, Lora for headings and body text). The layout follows annemetz.com; the colors, fonts, wordmark, and code are separate.
 
 ## Placeholders
 

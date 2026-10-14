@@ -15,7 +15,7 @@
   --band: #1C2333;
   --band-text: #C9CEDA;
   --heading-font: 'Lora', Georgia, serif;
-  --body-font: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --body-font: 'Lora', Georgia, serif;
   --heading-weight: 500;
 }
 :root {
@@ -91,7 +91,7 @@ p:last-child { margin-bottom: 0; }
 /* Buttons */
 .btn {
   display: inline-block; padding: 0.8rem 1.5rem; border-radius: var(--radius);
-  font-weight: 600; font-size: 0.95rem; text-decoration: none; border: 2px solid var(--accent);
+  font-family: var(--body-font); font-weight: 600; font-size: 0.95rem; text-decoration: none; border: 2px solid var(--accent); cursor: pointer;
 }
 .btn-primary { background: var(--accent); color: var(--on-accent); }
 .btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); color: var(--on-accent); }
@@ -154,3 +154,21 @@ div.placeholder, p.placeholder { display: block; padding: 0.8rem 1rem; }
 .footer-grid h2 { color: #FFFFFF; font-size: 1rem; font-family: var(--body-font); font-weight: 600; margin-bottom: 0.6rem; }
 .footer-grid ul { list-style: none; padding: 0; }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,0.15); margin-top: 2rem; padding-top: 1rem; font-size: 0.85rem; }
+
+/* Age confirmation overlay */
+.age-gate-open, .age-gate-open body { overflow: hidden; }
+.age-gate {
+  position: fixed; inset: 0; z-index: 300;
+  background: var(--band);
+  display: flex; align-items: center; justify-content: center; padding: 16px;
+}
+.age-gate-box {
+  background: var(--bg); border-radius: var(--radius);
+  max-width: 440px; width: 100%; padding: 2rem 1.5rem; text-align: center;
+}
+.age-gate-box .actions { justify-content: center; }
+.age-gate-name {
+  font-family: var(--heading-font); font-weight: var(--heading-weight);
+  color: var(--accent); margin-bottom: 0.75rem;
+}
+.age-gate-box h2 { font-size: 1.6rem; }
