@@ -55,6 +55,12 @@ p:last-child { margin-bottom: 0; }
 .container { width: 100%; max-width: var(--max-w); margin: 0 auto; padding: 0 16px; }
 @media (min-width: 640px) { .container { padding: 0 2rem; } }
 .narrow { max-width: 760px; }
+/* A narrow container keeps the full container width and left edge
+   (aligned with the logo); only its contents are limited to a
+   readable line length. */
+.container.narrow { max-width: var(--max-w); }
+.container.narrow > * { max-width: 760px; }
+.band .container.narrow > * { margin-left: auto; margin-right: auto; }
 
 .skip-link { position: absolute; left: -9999px; }
 .skip-link:focus { left: 1rem; top: 1rem; background: var(--surface); padding: 0.5rem 1rem; z-index: 200; }
@@ -140,11 +146,11 @@ p:last-child { margin-bottom: 0; }
 }
 div.placeholder, p.placeholder { display: block; padding: 0.8rem 1rem; }
 
-/* Band */
-.band { background: var(--band); color: var(--band-text); padding: 3rem 0; text-align: center; }
-.band h2 { color: #FFFFFF; }
-.band .btn-outline { color: #FFFFFF; border-color: #FFFFFF; }
-.band .btn-outline:hover { background: rgba(255,255,255,0.1); }
+/* Band: closing call to action */
+.band { background: var(--bg); color: var(--text); padding: 3rem 0; text-align: center; border-top: 1px solid var(--line); }
+.band h2 { color: var(--ink); }
+.band .btn-outline { color: var(--on-accent); background: var(--accent); border-color: var(--accent); }
+.band .btn-outline:hover { background: var(--accent-hover); border-color: var(--accent-hover); color: var(--on-accent); }
 
 /* Footer */
 .site-footer { background: var(--band); color: var(--band-text); padding: 2.5rem 0 1.5rem; font-size: 0.95rem; }
