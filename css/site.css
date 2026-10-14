@@ -72,7 +72,7 @@ p:last-child { margin-bottom: 0; }
   display: inline-flex; align-items: center; gap: 0.6rem;
 }
 .wordmark-mark { width: 28px; height: 28px; color: var(--accent); }
-.nav-links { display: none; list-style: none; gap: 1.6rem; padding: 0; align-items: center; }
+.nav-links { display: none; list-style: none; gap: 1.2rem; padding: 0; align-items: center; }
 .nav-links li { margin: 0; }
 .nav-links a { color: var(--text); text-decoration: none; font-size: 0.95rem; }
 .nav-links a:hover, .nav-links a[aria-current="page"] { color: var(--accent); }
@@ -83,7 +83,7 @@ p:last-child { margin-bottom: 0; }
 .mobile-menu { display: none; border-top: 1px solid var(--line); padding: 0.5rem 0 1rem; }
 .mobile-menu.open { display: block; }
 .mobile-menu a { display: block; padding: 0.6rem 0; color: var(--ink); text-decoration: none; }
-@media (min-width: 880px) {
+@media (min-width: 1160px) {
   .nav-links { display: flex; }
   .nav-toggle, .mobile-menu, .mobile-menu.open { display: none; }
 }
@@ -172,3 +172,17 @@ div.placeholder, p.placeholder { display: block; padding: 0.8rem 1rem; }
   color: var(--accent); margin-bottom: 0.75rem;
 }
 .age-gate-box h2 { font-size: 1.6rem; }
+
+/* Ported content pages */
+.lead { font-size: 1.15rem; }
+.split-grid { display: grid; gap: 2rem; align-items: start; }
+.split-grid > img { width: 100%; height: auto; border-radius: var(--radius); }
+@media (min-width: 880px) { .split-grid { grid-template-columns: 1fr 1.4fr; gap: 3rem; } }
+.gallery { display: grid; gap: 1.25rem; margin-top: 2rem; }
+@media (min-width: 720px) { .gallery { grid-template-columns: repeat(3, 1fr); } }
+.gallery img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
+.gallery figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 0.5rem; }
+blockquote { border-left: 4px solid var(--accent); padding: 0.5rem 0 0.5rem 1.25rem; margin: 1.25rem 0; font-style: italic; }
+.cite { color: var(--muted); font-size: 0.95rem; }
+h3 { margin-top: 1.5rem; }
+.section h2 + h3, .card h3 { margin-top: 0; }
