@@ -153,13 +153,13 @@ div.placeholder, p.placeholder { display: block; padding: 0.8rem 1rem; }
 .band .btn-outline:hover { background: var(--accent-hover); border-color: var(--accent-hover); color: var(--on-accent); }
 
 /* Footer */
-.site-footer { background: var(--band); color: var(--band-text); padding: 2.5rem 0 1.5rem; font-size: 0.95rem; }
-.site-footer a { color: #FFFFFF; }
+.site-footer { background: var(--tint); color: var(--text); padding: 2.5rem 0 1.5rem; font-size: 0.95rem; border-top: 1px solid var(--line); }
+.site-footer a { color: var(--accent); }
 .footer-grid { display: grid; gap: 1.5rem; }
 @media (min-width: 720px) { .footer-grid { grid-template-columns: 1.4fr 1fr 1fr; } }
-.footer-grid h2 { color: #FFFFFF; font-size: 1rem; font-family: var(--body-font); font-weight: 600; margin-bottom: 0.6rem; }
+.footer-grid h2 { color: var(--ink); font-size: 1rem; font-family: var(--body-font); font-weight: 600; margin-bottom: 0.6rem; }
 .footer-grid ul { list-style: none; padding: 0; }
-.footer-bottom { border-top: 1px solid rgba(255,255,255,0.15); margin-top: 2rem; padding-top: 1rem; font-size: 0.85rem; }
+.footer-bottom { border-top: 1px solid var(--line); margin-top: 2rem; padding-top: 1rem; font-size: 0.85rem; }
 
 /* Age confirmation overlay */
 .age-gate-open, .age-gate-open body { overflow: hidden; }
