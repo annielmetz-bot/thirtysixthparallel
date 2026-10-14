@@ -13,13 +13,14 @@
 
 ## Pages
 
-- [Home](https://thirtysixthparallel.com/): Psilocybin for women: why a women-focused practice; psilocybin work for grief, identity, infertility, perimenopause, and menopause; company description and licensure status
+- [Home](https://thirtysixthparallel.com/): Why a women-focused practice; company description and licensure status
+- [Psilocybin for Women](https://thirtysixthparallel.com/women.html): Women's psychology in psilocybin work; women at significant thresholds
+- [Grief, Identity & Midlife](https://thirtysixthparallel.com/grief-identity-midlife.html): Identity and life transitions, infertility and reproductive grief, perimenopause and menopause
 - [How It Works](https://thirtysixthparallel.com/how-it-works.html): Preparation, the medicine session, integration, the science, Colorado's program, and pricing
 - [Taos, New Mexico](https://thirtysixthparallel.com/taos.html): Planned medical psilocybin treatment in Taos; who qualifies, what to expect, cost, and travel
 - [Preparation & Integration](https://thirtysixthparallel.com/preparation-integration.html): Preparation and integration sessions by telehealth
 - [About](https://thirtysixthparallel.com/about.html): Dr. Anne Metz's background, training, license, writing, and media appearances
 - [The Psychedelic Skeptic Podcast](https://thirtysixthparallel.com/podcast.html): Dr. Metz's podcast on psychedelic therapy
-- [FAQ](https://thirtysixthparallel.com/faq.html): The New Mexico program, who qualifies, Colorado sessions, safety screening, cost, and company status
+- [FAQ](https://thirtysixthparallel.com/faq.html): The New Mexico program, who qualifies, Colorado sessions, safety screening, cost, other providers, and company status
 - [Disclosure](https://thirtysixthparallel.com/disclosure.html): Related businesses
-- [Alternatives & Resources](https://thirtysixthparallel.com/resources.html): Other providers in New Mexico
 - [Consultation Requests](https://thirtysixthparallel.com/consultation.html): How requests will work once services are available
