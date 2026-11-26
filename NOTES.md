@@ -11,9 +11,9 @@ The original files are in the annemetz repo history at commit `b828fbc` (the las
 | `new-mexico.html` | Planned New Mexico medical psilocybin treatment in Taos |
 | `preparation-integration.html` | Psychedelic preparation and integration sessions |
 | `podcast.html` | The Psychedelic Skeptic podcast |
-| `about.html` (Media section, "On psilocybin", training list, licenses) | Op-eds, interviews, psychedelic trainings, Colorado Natural Medicine Facilitator in Training license NMIT.0000254, Fluence and Numia roles, New Mexico patient safety subcommittee |
+| `about.html` (Media section, "On psilocybin", training list, licenses) | Op-eds, interviews, psychedelic trainings, Colorado Natural Medicine Facilitator in Training license NMIT.0000254, Fluence role, New Mexico patient safety subcommittee |
 | `testimonials.html` | Testimonial from Dr. Elizabeth Nielson, Fluence Training |
-| `llms.txt` | Numia, Fluence, Odyssey PBC, and psychedelic.support profile links |
+| `llms.txt` | Fluence, Odyssey PBC, and psychedelic.support profile links |
 | `images/` | `psychedelic-skeptic-logo.png` and stock photos used on the psilocybin pages |
 
 Later commits on annemetz `main` also added, then the counseling-only change removed: a Taos page (`new-mexico.html`) with Taos photos, and two interviews on the About page (*Avoid the Maze*, New Cleveland Radio, https://www.youtube.com/watch?v=W1ZgFvuVpkE; Eric Teplitz Ep. 27, https://www.youtube.com/watch?v=Q2SaAqKV5Mg). See annemetz commit `60d88d1`.
